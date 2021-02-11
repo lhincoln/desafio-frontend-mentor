@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+* {
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(185, 75%, 39%);
+}
+
+.top {
+    position: absolute;
+    width: 50%;
+    top: -40%;
+    left: -8%;
+}
+
+.bottom-circle {
+    position: absolute;
+    width: 50%;
+    bottom: -50%;
+    right: -7%;
+}
+
+.card {
+    position: absolute;
+    height: 390px;
+    width: 350px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+.svg {
+    position: relative;
+    background-image: url("images/bg-pattern-card.svg");
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+
+.circle {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border: 5px solid white;
+    border-radius: 50%;
+    top: 20%;
+    left: 35%;
+    background-position: center;
+}
+
+.circle img {
+    position: relative;
+    width: 89.3px;
+    height: 88px;
+    left: 0.3px;
+    top: -1px;
+}
+
+.s1 {
+    font-size: 18px;
+    font-family: "Kumbh Sans";
+    font-weight: 700;
+    color: hsl(227, 23%, 23%);
+}
+
+.name {
+    position: absolute;
+    top: 55%;
+    left: 31%;
+}
+
+.s2 {
+    font-size: 18px;
+    font-family: "Kumbh Sans";
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+}
+
+
+.s3 {
+    font-size: 14px;
+    font-family: "Kumbh Sans";
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+}
+
+.location {
+    position: absolute;
+    bottom: 32%;
+    right: 37%;
+}
+
+.bottom {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    bottom: 6%;
+    padding: 8px 4px;
+    border-top: 1px solid hsl(0, 0%, 59%);
+}
+
+.followers,
+.likes,
+.photos {
+    padding-top: 7px;
+}
+
+.k {
+    position: relative;
+    font-family: "Kumbh Sans";
+    font-weight: 900;
+    font-size: 20px;
+    left: 25%;
+}
+
+.t {
+    font-family: "Kumbh Sans";
+    font-size: 14px;
+    padding: 5px 15px;
+    color: hsl(0, 0, 59%);
+}
+
+.photos {
+    
+}
